@@ -77,11 +77,11 @@ jobs:
               sudo systemctl enable docker
             fi
 
-            rm -rf my-app
+            rm -rf my-devops-app
 
             git clone https://github.com/anushka-p99soft/my-devops-app
 
-            cd <repo-name>
+            cd my-devops-app
 
             docker rm -f my-container || true
 
